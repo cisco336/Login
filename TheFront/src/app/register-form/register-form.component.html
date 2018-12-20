@@ -1,0 +1,11 @@
+<form [formGroup]="formRegister">
+  <div [@fade]="animState" class="form-group">
+    <label for="nameReg">Name</label>
+    <input type="text" class="form-control" id="nameReg" aria-describedby="emailHelp" formControlName="nameReg" placeholder="Enter name" (input)="emition()">
+  </div>
+  <div [@fade]="animState" class="form-group">
+    <label for="lastNameReg">Lastname</label>
+    <input type="text" class="form-control" id="lastNameReg" aria-describedby="emailHelp" formControlName="lastNameReg" placeholder="Enter lastname" (input)="emition()">
+  </div>
+</form>
+  
